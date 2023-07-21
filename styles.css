@@ -6,17 +6,23 @@
 body {
   background-color: #075e54;
   font-family: "Helvetica Now", sans-serif;
-  color: #efeeee;
+  color: antiquewhite;
   text-align: center;
+  line-height: 1.5;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(1, 194, 194);
+    justify-content: center;
 }
 
 h2 {
   text-align: center;
-  color: #4f4f4f;
 }
 p {
   text-align: justify;
-  color: #4f4f4f;
 }
 
 .contenedor {
@@ -32,30 +38,45 @@ p {
   border-radius: 10px;
 }
 
+iframe{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .tutorials-buttons {
   display: flex;
-  padding: 2%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #075e54;
   border: none;
   border-radius: 10px;
   flex-wrap: wrap;
   justify-content: center; /* Centrar los botones horizontalmente */
-  gap: 18px; /* Espacio entre los botones */
+  gap: 15px; /* Espacio entre los botones */
 }
 
 .tutorials-buttons button {
   flex: 0 0 calc(25% - 18px); /* 25% de ancho y restar el espacio entre botones (18px) */
   background-color: #25d366;
-  height: 30px;
+  height: 40px;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 13px;
   font-weight: bold;
+  transition: transform 0.3s ease; /* Agregamos la animación a la propiedad 'transform' */
+}
+
+.tutorials-buttons button:hover {
+  background-color: #128c7e; /* Nuevo color de fondo cuando se pasa el mouse */
+  transform: scale(1.1); /* Hacemos que el botón se agrande en 10% cuando se pasa el mouse */
 }
 
 .tutorials-content {
-  display: block; /* Usar un grid para el contenido */
+  display: flex;
+  color: #4f4f4f;
+  width: 70vw;
+  margin-top: 20px;
   gap: 20px; /* Espacio entre los elementos del contenido */
 }

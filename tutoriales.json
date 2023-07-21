@@ -1,35 +1,43 @@
 [
     {
-        "titulo": "Cómo enviar un mensaje",
-        "contenido": "Para enviar un mensaje en WhatsApp, abre la conversación, escribe tu mensaje y pulsa el botón de enviar."
+      "titulo": "Cómo enviar mensajes",
+      "contenido": "Para enviar mensajes en WhatsApp, simplemente abre la aplicación y selecciona el chat de la persona o grupo al que deseas enviar un mensaje. Luego, escribe tu mensaje en el campo de texto y presiona el botón de enviar. También puedes enviar mensajes de voz, emojis y stickers.",
+      "videoLink": "https://www.youtube.com/embed/TudouM_kvfc"
     },
     {
-        "titulo": "Cómo crear un grupo",
-        "contenido": "Para crear un grupo en WhatsApp, ve a la pestaña de 'Chats', pulsa el botón de menú y selecciona 'Nuevo Grupo'. Luego sigue las instrucciones para agregar participantes y crear el grupo."
+      "titulo": "Cómo enviar audios",
+      "contenido": "Para enviar audios en WhatsApp, abre el chat al que deseas enviar el mensaje de voz. Luego, mantén presionado el ícono del micrófono en el campo de mensaje y graba tu audio. Cuando hayas terminado de grabar, suelta el botón del micrófono para enviar el mensaje de voz.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_2"
     },
     {
-        "titulo": "Cómo enviar una imagen",
-        "contenido": "Para enviar una imagen en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Galería' para elegir una imagen de tu dispositivo."
+      "titulo": "Cómo enviar videos",
+      "contenido": "Para enviar videos en WhatsApp, abre el chat y selecciona el ícono de adjuntar (clip) en la esquina inferior izquierda. Luego, elige la opción de 'Galería' para seleccionar un video de tu dispositivo. Una vez seleccionado, puedes agregar un mensaje opcional y luego presionar el botón de enviar.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_3"
     },
     {
-        "titulo": "Cómo enviar un audio",
-        "contenido": "Para enviar un audio en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Audio' para elegir un archivo de audio de tu dispositivo."
+      "titulo": "Cómo enviar archivos",
+      "contenido": "Para enviar archivos en WhatsApp, abre el chat y selecciona el ícono de adjuntar (clip). Luego, elige la opción de 'Documento' para seleccionar un archivo de tu dispositivo. Puedes enviar archivos como documentos PDF, hojas de cálculo, presentaciones, entre otros.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_4"
     },
     {
-        "titulo": "Cómo crear un chat grupal",
-        "contenido": "Para crear un chat grupal en WhatsApp, ve a la pestaña de 'Chats', pulsa el botón de menú y selecciona 'Nuevo Grupo'. Luego sigue las instrucciones para agregar participantes y crear el chat grupal."
+      "titulo": "Cómo usar WhatsApp Web",
+      "contenido": "WhatsApp Web te permite utilizar WhatsApp desde tu computadora. Para usarlo, visita web.whatsapp.com en tu navegador, escanea el código QR que aparece en la página con tu teléfono, y tu cuenta de WhatsApp se sincronizará con la versión web. Desde WhatsApp Web, puedes enviar mensajes, audios, imágenes y más.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_5"
     },
     {
-        "titulo": "Cómo enviar un video",
-        "contenido": "Para enviar un video en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Video' para elegir un archivo de video de tu dispositivo."
+      "titulo": "Cómo crear y unirse a grupos",
+      "contenido": "Los grupos de WhatsApp te permiten interactuar con varias personas al mismo tiempo. Para crear un grupo, abre WhatsApp y selecciona la opción de 'Nuevo grupo'. Luego, elige los contactos que deseas agregar al grupo y dale un nombre. Para unirte a un grupo, simplemente debes recibir una invitación y aceptarla.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_6"
     },
     {
-        "titulo": "Cómo cambiar tu foto de perfil",
-        "contenido": "Para cambiar tu foto de perfil en WhatsApp, ve a tu perfil, pulsa tu foto actual y selecciona 'Cambiar foto de perfil'. Luego elige una nueva foto y ajústala según tu preferencia."
+      "titulo": "Cómo realizar y atender llamadas",
+      "contenido": "WhatsApp te permite realizar llamadas de voz y videollamadas con tus contactos de forma gratuita. Para hacer una llamada de voz, selecciona el chat de la persona a la que deseas llamar y presiona el ícono de teléfono. Para una videollamada, selecciona el ícono de videocámara. Ambos deben tener una conexión a internet estable.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_7"
     },
     {
-        "titulo": "Cómo usar las etiquetas",
-        "contenido": "Para usar etiquetas en WhatsApp, abre una conversación, pulsa el botón de emoji y selecciona 'Etiquetas'. Luego elige una etiqueta y envíala en el chat."
+      "titulo": "Cómo configurar la privacidad",
+      "contenido": "WhatsApp ofrece opciones de privacidad para proteger tu información personal. Puedes configurar quién puede ver tu foto de perfil, tu estado y tu información de última vez. Además, puedes bloquear contactos no deseados y configurar quién puede agregarte a grupos.",
+      "videoLink": "https://www.youtube.com/embed/VIDEO_ID_8"
     }
-]
-
+  ]
+  

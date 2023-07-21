@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         tutorialElement.innerHTML = `
             <h2>${tutorial.titulo}</h2>
             <p>${tutorial.contenido}</p>
+            <iframe width="560" height="315" src="${tutorial.videoLink}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         `;
         tutorialElement.style.display = "none";
         tutorialsContentContainer.appendChild(tutorialElement);
