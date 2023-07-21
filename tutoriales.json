@@ -1,0 +1,35 @@
+[
+    {
+        "titulo": "Cómo enviar un mensaje",
+        "contenido": "Para enviar un mensaje en WhatsApp, abre la conversación, escribe tu mensaje y pulsa el botón de enviar."
+    },
+    {
+        "titulo": "Cómo crear un grupo",
+        "contenido": "Para crear un grupo en WhatsApp, ve a la pestaña de 'Chats', pulsa el botón de menú y selecciona 'Nuevo Grupo'. Luego sigue las instrucciones para agregar participantes y crear el grupo."
+    },
+    {
+        "titulo": "Cómo enviar una imagen",
+        "contenido": "Para enviar una imagen en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Galería' para elegir una imagen de tu dispositivo."
+    },
+    {
+        "titulo": "Cómo enviar un audio",
+        "contenido": "Para enviar un audio en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Audio' para elegir un archivo de audio de tu dispositivo."
+    },
+    {
+        "titulo": "Cómo crear un chat grupal",
+        "contenido": "Para crear un chat grupal en WhatsApp, ve a la pestaña de 'Chats', pulsa el botón de menú y selecciona 'Nuevo Grupo'. Luego sigue las instrucciones para agregar participantes y crear el chat grupal."
+    },
+    {
+        "titulo": "Cómo enviar un video",
+        "contenido": "Para enviar un video en WhatsApp, abre la conversación, pulsa el botón de adjuntar y selecciona 'Video' para elegir un archivo de video de tu dispositivo."
+    },
+    {
+        "titulo": "Cómo cambiar tu foto de perfil",
+        "contenido": "Para cambiar tu foto de perfil en WhatsApp, ve a tu perfil, pulsa tu foto actual y selecciona 'Cambiar foto de perfil'. Luego elige una nueva foto y ajústala según tu preferencia."
+    },
+    {
+        "titulo": "Cómo usar las etiquetas",
+        "contenido": "Para usar etiquetas en WhatsApp, abre una conversación, pulsa el botón de emoji y selecciona 'Etiquetas'. Luego elige una etiqueta y envíala en el chat."
+    }
+]
+

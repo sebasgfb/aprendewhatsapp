@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Helvetica Now";
+  src: url("fonts/HelveticaNow.ttf") format("truetype");
+}
+
+body {
+  background-color: #075e54;
+  font-family: "Helvetica Now", sans-serif;
+  color: #efeeee;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #4f4f4f;
+}
+p {
+  text-align: justify;
+  color: #4f4f4f;
+}
+
+.contenedor {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: auto;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.tutorials-buttons {
+  display: flex;
+  padding: 2%;
+  background-color: #075e54;
+  border: none;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar los botones horizontalmente */
+  gap: 18px; /* Espacio entre los botones */
+}
+
+.tutorials-buttons button {
+  flex: 0 0 calc(25% - 18px); /* 25% de ancho y restar el espacio entre botones (18px) */
+  background-color: #25d366;
+  height: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.tutorials-content {
+  display: block; /* Usar un grid para el contenido */
+  gap: 20px; /* Espacio entre los elementos del contenido */
+}
