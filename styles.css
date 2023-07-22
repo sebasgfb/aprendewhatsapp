@@ -1,82 +1,121 @@
+/* Definición de fuente personalizada */
 @font-face {
   font-family: "Helvetica Now";
   src: url("fonts/HelveticaNow.ttf") format("truetype");
 }
 
+/* Estilos generales */
 body {
-  background-color: #075e54;
+  background: linear-gradient(90deg, rgba(7,94,84,1) 0%, rgba(64,189,143,1) 100%);
   font-family: "Helvetica Now", sans-serif;
   color: antiquewhite;
   text-align: center;
+}
+
+/* Estilos para el footer */
+.footer {
+  margin: 10px 0;
+  color: rgb(167, 227, 227);
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+
+/* Estilos para el header */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  margin: auto 10px; /* Ajusta el espacio entre el logo y el h1 */
+}
+
+/* Estilo para el contenedor principal */
+.contenedor {
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.791);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilo para los párrafos*/
+.contenedor p {
+  text-align: justify;
   line-height: 1.5;
 }
 
-.footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(1, 194, 194);
-    justify-content: center;
+/* Estilos para iframes */
+iframe {
+  margin: 20px auto;
 }
 
-h2 {
-  text-align: center;
-}
-p {
-  text-align: justify;
-}
-
-.contenedor {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-  height: auto;
-  align-items: center;
-  background-color: antiquewhite;
-  padding: 20px;
-  border: none;
-  border-radius: 10px;
-}
-
-iframe{
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
+/* Estilos para los botones de los tutoriales */
 .tutorials-buttons {
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #075e54;
-  border: none;
-  border-radius: 10px;
+  margin-top: 20px;
   flex-wrap: wrap;
-  justify-content: center; /* Centrar los botones horizontalmente */
-  gap: 15px; /* Espacio entre los botones */
+  /* Añadir flex-wrap para que los elementos se ajusten correctamente */
+  padding: 15px;
+  background-color: #075e54;
+  border-radius: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 
 .tutorials-buttons button {
-  flex: 0 0 calc(25% - 18px); /* 25% de ancho y restar el espacio entre botones (18px) */
-  background-color: #25d366;
+  flex: 1 0 calc(25% - 15px);
+  background-color: #2ab85e;
   height: 40px;
-  color: #fff;
   border: none;
+  color: #fbf2f2;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
-  transition: transform 0.3s ease; /* Agregamos la animación a la propiedad 'transform' */
+  transition: transform 0.3s ease;
 }
 
 .tutorials-buttons button:hover {
-  background-color: #128c7e; /* Nuevo color de fondo cuando se pasa el mouse */
-  transform: scale(1.1); /* Hacemos que el botón se agrande en 10% cuando se pasa el mouse */
+  background-color: #128c7e;
+  transform: scale(1.1);
 }
 
+/* Estilos para el contenido de los tutoriales */
 .tutorials-content {
   display: flex;
   color: #4f4f4f;
   width: 70vw;
   margin-top: 20px;
-  gap: 20px; /* Espacio entre los elementos del contenido */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tutorials-content div {
+  display: none;
+  /* Ocultar el contenido de los tutoriales inicialmente */
+}
+
+/* Regla de medios para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .tutorials-buttons button {
+    flex: 1 0 calc(50% - 10px);
+    /* Cambiar a 2 columnas */
+  }
+
+  iframe {
+    width: auto;
+    height: auto;
+    /* Mostrar el contenido de los tutoriales */
+  }
+  
+  .footer{
+    font-size: 10px;
+  }
 }
